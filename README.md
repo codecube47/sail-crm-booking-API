@@ -19,14 +19,43 @@ Get all directions by cruise id:
 
     https://dev-sailcrm.herokuapp.com/api/v1/cruises/:id/directions
 
+  JSON result:
+
+    {"directions":[
+        {"id":62,"name":"Dubrovnik - Split"},
+        {"id":63,"name":"Split - Dubrovnik"},
+        {"id":9,"name":"Split Return"}
+    ],
+    "status":200
+    }
+
+
 Get all tours by directions id:
 
     https://dev-sailcrm.herokuapp.com/api/v1/directions/:id/tours
+    
+    JSON result:
+
+    {"tours":[
+        {"id":696,"departure":"2016-08-14T00:00:00.000Z"},
+        {"id":710,"departure":"2016-10-02T00:00:00.000Z"}
+    ],
+    "status":200
+    }
 
 Get all ships by tour id:
 
     https://dev-sailcrm.herokuapp.com/api/v1/tours/:id/ships
+    
+    JSON result:
 
+    {"ships":[
+        {"id":"Premier Plus/Above Deck/1299.0","name":"Premier Plus - Above Deck - \u0026pound;1299"},
+        {"id":"Premier Plus/Lower Deck/1149.0","name":"Premier Plus - Lower Deck - \u0026pound;1149"}
+    ],
+        "status":200
+    }
+    
 Create enquiry:
 
     https://dev-sailcrm.herokuapp.com/api/v1/enquiry
@@ -50,16 +79,6 @@ Create enquiry:
                console.log(val.id+" "+val.name)
             });
      });
-
-Result JSON:
-
-    {"cruises":[
-          {"id":3,"name":"Elegance Cruise","numberOfDays":8},
-          {"id":9,"name":"Special - Green Sail Cruise","numberOfDays":8}
-        ],
-    "status":200
-    }
-
 
 #### POST JSON request:
 
