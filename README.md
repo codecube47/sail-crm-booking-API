@@ -67,6 +67,10 @@ JSON result:
 Create enquiry:
 
     https://dev-sailcrm.herokuapp.com/api/v1/enquiry
+    
+JSON result:
+
+    {"message":"Enquiry created","status":201}
 
 ## Example (curl)
 
