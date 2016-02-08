@@ -230,6 +230,8 @@ Setup Authorization
 
 This is beta version
 
+<script async src="//jsfiddle.net/190m8vd9/embed/"></script>
+
 ## Contributing
 
 1. Fork it
