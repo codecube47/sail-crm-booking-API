@@ -15,6 +15,15 @@ Get all cruises:
 
     https://dev-sailcrm.herokuapp.com/api/v1/cruises
 
+JSON result:
+
+    {"cruises":[
+        {"id":3,"name":"Elegance Cruise","numberOfDays":8},
+        {"id":9,"name":"Special - Green Sail Cruise","numberOfDays":8}
+    ],
+        "status":200
+    }
+    
 Get all directions by cruise id:
 
     https://dev-sailcrm.herokuapp.com/api/v1/cruises/:id/directions
@@ -23,8 +32,7 @@ Get all directions by cruise id:
 
     {"directions":[
         {"id":62,"name":"Dubrovnik - Split"},
-        {"id":63,"name":"Split - Dubrovnik"},
-        {"id":9,"name":"Split Return"}
+        {"id":63,"name":"Split - Dubrovnik"}
     ],
     "status":200
     }
