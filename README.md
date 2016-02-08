@@ -125,6 +125,10 @@ Setup Authorization
           console.log(json)
       }
     }); 
+    
+## jsfiddle example
+
+<a target="_blank"  href="https://jsfiddle.net/190m8vd9/4/"> https://jsfiddle.net/190m8vd9/4/ </a>
 
 #### Sample HTML from:
 
@@ -225,10 +229,6 @@ Setup Authorization
         </div>
     </div>
 </form>
-
-## jsfiddle example
-
-<a target="_blank"  href="https://jsfiddle.net/190m8vd9/3/"> https://jsfiddle.net/190m8vd9/3/ </a>
 
 ## Versions
 
