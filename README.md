@@ -53,8 +53,7 @@ Create enquiry:
 
 result Json:
 
-    {"cruises":
-        [
+    {"cruises":[
           {"id":3,"name":"Elegance Cruise","numberOfDays":8},
           {"id":9,"name":"Special - Green Sail Cruise","numberOfDays":8}
         ],
