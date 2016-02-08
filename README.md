@@ -226,11 +226,13 @@ Setup Authorization
     </div>
 </form>
 
+## jsfiddle example
+
+https://jsfiddle.net/190m8vd9/
+
 ## Versions
 
 This is beta version
-
-<script async src="//jsfiddle.net/190m8vd9/embed/"></script>
 
 ## Contributing
 
