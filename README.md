@@ -9,7 +9,7 @@ Lightweight JSON API for sail-croatia booking CRM.
 
 ## API (beta)
 
-API need access token, email to info@sailcroatia.com to get token
+API Access token, email to info@sailcroatia.com
 
 Get all cruises:
 
