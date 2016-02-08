@@ -45,7 +45,11 @@ Create enquiry:
 
 #### GET:
 
-     curl -H "Authorization: Token token=user_token" https://dev-sailcrm.herokuapp.com/api/v1/cruises
+     $.getJSON("https://dev-sailcrm.herokuapp.com/api/v1/cruises", function(data) {
+            $.each( data.cruises, function( key, val ) {
+               console.log(val.id+" "+val.name)
+            });
+     });
 
 #### POST:
 
