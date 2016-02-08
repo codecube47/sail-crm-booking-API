@@ -51,7 +51,7 @@ Create enquiry:
             });
      });
 
-result json:
+Result JSON:
 
     {"cruises":[
           {"id":3,"name":"Elegance Cruise","numberOfDays":8},
@@ -61,7 +61,7 @@ result json:
     }
 
 
-#### POST json request:
+#### POST JSON request:
 
     jQuery.ajax({
       type: 'POST',
@@ -74,7 +74,7 @@ result json:
       }
     });
     
-#### POST without json request:
+#### POST without JSON request:
 
     jQuery.ajax({
       type: 'POST',
