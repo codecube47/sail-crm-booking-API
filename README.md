@@ -39,7 +39,7 @@ curl GET:
 
 curl POST:
 
-    curl -H "Authorization: Token token=user_token" -d "customer[title]=Mr&customer[first_name]=Nilanga&customer[last_name]=Saluwadana&customer[birth_year]=1986&customer[email]=nilanga89@gmail.com&customer[confirm_email]=nilanga89@gmail.com&customer[country_code]=New Zealand_+64&customer[tel]=0772939096&customer[nationality]=New Zealander&enquiry[pax]=20&enquiry[cruise_id]=1&enquiry[direction_id]=62&enquiry[tour_id]=696&enquiry[ship]=Premier Plus/Above Deck/1299.0&enquiry[note]=Addition information" -X POST localhost:3000/api/v1/enquiry
+    curl -H "Authorization: Token token=user_token" -d "customer[title]=Mr&customer[first_name]=Nilanga&customer[last_name]=Saluwadana&customer[birth_year]=1986&customer[email]=nilanga89@gmail.com&customer[confirm_email]=nilanga89@gmail.com&customer[country_code]=New Zealand_+64&customer[tel]=0772939096&customer[nationality]=New Zealander&enquiry[pax]=20&enquiry[cruise_id]=1&enquiry[direction_id]=62&enquiry[tour_id]=696&enquiry[ship]=Premier Plus/Above Deck/1299.0&enquiry[note]=Addition information" -X POST https://dev-sailcrm.herokuapp.com/api/v1/enquiry
 
 
 
