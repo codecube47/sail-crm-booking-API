@@ -228,7 +228,7 @@ Setup Authorization
 
 ## jsfiddle example
 
-<a target="_blank" href="https://jsfiddle.net/190m8vd9/3/"> https://jsfiddle.net/190m8vd9/3/ </a>
+<a target="_blank"  href="https://jsfiddle.net/190m8vd9/3/"> https://jsfiddle.net/190m8vd9/3/ </a>
 
 ## Versions
 
