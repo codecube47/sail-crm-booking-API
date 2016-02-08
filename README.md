@@ -34,7 +34,7 @@ Get all tours by directions id:
 
     https://dev-sailcrm.herokuapp.com/api/v1/directions/:id/tours
     
-    JSON result:
+JSON result:
 
     {"tours":[
         {"id":696,"departure":"2016-08-14T00:00:00.000Z"},
@@ -47,7 +47,7 @@ Get all ships by tour id:
 
     https://dev-sailcrm.herokuapp.com/api/v1/tours/:id/ships
     
-    JSON result:
+JSON result:
 
     {"ships":[
         {"id":"Premier Plus/Above Deck/1299.0","name":"Premier Plus - Above Deck - \u0026pound;1299"},
