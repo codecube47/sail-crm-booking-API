@@ -7,13 +7,15 @@ Lightweight JSON API for sail-croatia booking CRM.
 
 
 
-## API ( beta ) 
+## API ( beta )
+
+API need access token, email to info@sailcroatia.com to get token
 
 Get all cruises:
 
     https://dev-sailcrm.herokuapp.com/api/v1/cruises
 
-Get all Directions by cruise id:
+Get all directions by cruise id:
 
     https://dev-sailcrm.herokuapp.com/api/v1/cruises/:id/directions
 
@@ -31,19 +33,14 @@ Create enquiry:
 
 ## Example
 
-curl :
+curl GET:
 
-     var validator = new Dominar($('#new_user'), {
-            "user[name]": {
-                rules: 'required|min:3|max:10'
-            },
-            "user[notes]": {
-                rules: 'required|min:5|max:20'
-            },
-            "user[group]": {
-                rules: 'required|in:guest,admin'
-            }
-     });
+     curl -H "Authorization: Token token=user_token" https://dev-sailcrm.herokuapp.com/api/v1/cruises
+
+curl POST:
+
+    curl -d "customer[title]=Mr&customer[first_name]=Nilanga&customer[last_name]=Saluwadana&customer[birth_year]=1986&customer[email]=nilanga89@gmail.com&customer[confirm_email]=nilanga89@gmail.com&customer[country_code]=New Zealand_+64&customer[tel]=0772939096&customer[nationality]=New Zealander&enquiry[pax]=20&enquiry[cruise_id]=1&enquiry[direction_id]=62&enquiry[tour_id]=696&enquiry[ship]=Premier Plus/Above Deck/1299.0&enquiry[note]=Addition information" -X POST localhost:3000/api/v1/enquiry
+
 
 
 ## Versions
