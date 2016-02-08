@@ -50,16 +50,17 @@ Create enquiry:
                console.log(val.id+" "+val.name)
             });
      });
-     
-     json result
-     
-        {"cruises":
+
+result Json:
+
+    {"cruises":
         [
           {"id":3,"name":"Elegance Cruise","numberOfDays":8},
           {"id":9,"name":"Special - Green Sail Cruise","numberOfDays":8}
         ],
-        "status":200
-        }
+    "status":200
+    }
+
 
 #### POST:
 
